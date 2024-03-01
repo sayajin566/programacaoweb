@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Formulário padrão</legend>
+      <!------------------------------- Informação do Cliente -------------------------->
+        <label for="nome">nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><required><br>
+        <label for="npessoas">Número de pessoas</label>
+        <input type="text" id="nome" name="nome" placeholder="quantidade de pessoas"><required><br><br>
+      
+          <!----------------------------Seleção de horario ---------------------------------->
+
+        <strong><label for="horario">Horário</label><br></strong>
+          
+        <input type="radio" id="horario" name="horario" value="almoço" required>
+        <label for="horario">almoço</label><br>
+        <input type="radio" id="horario" name="horario" value="jantar" required>
+        <label for="horario">jantar</label><br><br>
+
+      <!---------------------------- Preferências dietéticas --------------------------------->
+
+      <strong><label for="horario">Preferencia</label><br></strong>
+      
+      <input type="checkbox" id="dietéticas" name="comida" value="restaurante">
+      <label for="dietéticas""> sem gluten</label><br>
+      <input type="checkbox" id="comida" name="comida" value="restaurante">
+      <label for="comida"> sem lactose</label><br>
+      <input type="checkbox" id="preferencia" name="comida" value="restaurante">
+      <label for="preferencia"> vegetariano</label><br>
+      <input type="checkbox" id="prato" name="comida" value="restaurante">
+      <label for="prato"> vegano</label><br><br>
+
+      <!---------------------------- Entradas ---------------------------------->
+
+      <strong><label for="horario">Entrada</label><br></strong>
+
+      <input type="checkbox" id="entrada" name="comida" value="restaurante" required>
+      <label for="entrada""> frango assado</label><br>
+      <input type="checkbox" id="principal" name="comida" value="restaurante" required>
+      <label for="principal"> espaguete com almondega</label><br>
+      <input type="checkbox" id="entradas" name="comida" value="restaurante" required>
+      <label for="entradas"> carne suina e arroz com nata</label><br><br>
+
+      <!---------------------------- Prato Principal ---------------------------------->
+
+      <strong><label for="horario">Prato principal</label><br></strong>
+
+      <input type="checkbox" id="garçom" name="comida" value="restaurante" required>
+      <label for="garçom""> pão quente</label><br>
+      <input type="checkbox" id="talher" name="comida" value="restaurante" required>
+      <label for="talher"> costela ao molho grelhado</label><br>
+      <input type="checkbox" id="recepcionista" name="comida" value="restaurante" required>
+      <label for="recepcionista"> batata recheada com calabresa e bacon com cheedar</label><br>
+      <input type="checkbox" id="molho" name="comida" value="restaurante" required>
+      <label for="molho"> pure de batata com carne moida</label><br><br>
+
+      <!---------------------------- acompanhamentos ---------------------------------->
+
+      <strong><label for="horario">Acompanhamentos</label><br></strong>
+
+      <input type="checkbox" id="salsicha" name="comida" value="restaurante">
+      <label for="salsicha"> salsicha empanada</label><br>
+      <input type="checkbox" id="queijo" name="comida" value="restaurante">
+      <label for="queijo"> queijo ralado ou derretido</label><br>
+      <input type="checkbox" id="fundi" name="comida" value="restaurante">
+      <label for="fundi"> fundi de queijo</label><br><br>
+
+      <!---------------------------- bebidas ---------------------------------->
+
+      <strong><label for="horario">Bebidas</label><br></strong>
+
+      <input type="checkbox" id="refrigerante" name="comida" value="restaurante">
+      <label for="refrigerante"> refrigerante</label><br>
+      <input type="checkbox" id="caipirinha" name="comida" value="restaurante">
+      <label for="caipirinha"> caipirinha</label><br>
+      <input type="checkbox" id="vodka" name="comida" value="restaurante">
+      <label for="vodka"> energetico com vodka</label><br><br>
+
+      <!---------------------------- sobremesa ---------------------------------->
+
+      <strong><label for="horario">Sobremesas</label><br></strong>
+
+      <input type="checkbox" id="sorvete" name="comida" value="restaurante">
+      <label for="sorvete"> sorvete(qualquer) com caude de caramelo</label><br>
+      <input type="checkbox" id="negresco" name="comida" value="restaurante">
+      <label for="negresco"> bolo de bolacha negresco</label><br>
+      <input type="checkbox" id="torta" name="comida" value="restaurante">
+      <label for="torta"> torta de bolacha negresco</label><br><br>
+
+      <HR>
+
+      <label for="nome">Telefone para contato</label>
+      <label for="nome">(47) 9.1589 - 4836</label>
+    </fieldset> 
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
